@@ -1,0 +1,10 @@
+html body{font-family:Lora,'Times New Roman',sans-serif;font-size: 12px;}
+#container{width:500px;margin:0 auto;}
+#error{color:red;font-weight:bold;}
+#frm{padding:10px 15px;
+	background:#FFC8C8;
+	border:1px solid #818181;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;}
+#footer{text-align:center;font-size:11px;margin-top:35px;clear:both;}
