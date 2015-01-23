@@ -3,7 +3,7 @@ require_once("config.php");
 
 $id = ''; // Empty by default
 
-if( isset($_GET['id']) )    $id = $t->filterId( $_GET['id'] );
+if( isset($_GET['id']) )  $id = $t->filterId( $_GET['id'] );
 
 // replace space to -
 $filterKey = $t->filterUrl($id);
@@ -11,6 +11,7 @@ $filterKey = $t->filterUrl($id);
 if( $id == 'index.php' || $id == '' )
 {
     $id = $default['title'];
+    $t->description = $default['description'];
 }
 echo $t->blogHead( $id );
 echo $t->nav();
