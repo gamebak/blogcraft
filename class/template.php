@@ -1,27 +1,14 @@
 <?php 
 class template
 {
-	private $title;
-	const DOMAIN = 'http://unblocktube.pk/';
+
+	public $title, $description;
+	const DOMAIN = 'http://picktables.com/';
 	function __construct()
 	{
 
 	}
 
-	function set( $key, $value )
-	{
-		$this->$key = $value;
-	}
-	
-	function head()
-	{
-		return '<html>
-		<title>'.$this->title.'</title>
-		<meta name="description" content="Product description in here">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/template.css">
-		<body>';
-	}
 
 	/*
 		Blog Structure
@@ -40,9 +27,8 @@ class template
 		  <meta name="generator" content="unblocktube.pk">
 		  <meta name="version" content="1.0">
 		  <meta name="viewport" content="width=device-width, initial-scale=1">
-		  <meta name="description" content="A complex answer for what is a web proxy and what problems it helps you solve. You can bypass firewalls and ips limitations.">
+		  <meta name="description" content="'.$this->description.'">
 		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-		  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 		  <style type="text/css">.spacer{margin-top:30px;}</style>
 		</head>
 		<body>';

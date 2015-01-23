@@ -9,7 +9,12 @@ $id = ''; // Empty by default
 if( isset($_GET['id']) )
   $id = $_GET['id'];
 
+// replace space to -
 $filterKey = $t->filterUrl($id);
+
+$t->description = "Description";
+$t->title = "Pick Tables";
+
 echo $t->blogHead( $id );
 echo $t->nav();
 
