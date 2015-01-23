@@ -15,7 +15,7 @@ class template
 	*/
 	function filterUrl( $title )
 	{
-		return str_replace(' ', '-', $title);
+		return str_replace(array(' ','/'), array('-',''), $title);
 	}
 
 	function blogHead( $title )
