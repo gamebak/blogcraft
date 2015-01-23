@@ -46,11 +46,14 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
     <div class="col-lg-8">
     <?php
       if( $db->key_exists('db', $filterKey) ) echo $db->key('db', $filterKey);
-      else if( $filterKey == 'preview' )
+      else if( $filterKey == '' || $filterKey == "/index.php" )
       {
       ?>
-    
-    
+      <h1>Best Coffee Tables Reviews</h1>
+      <h3>It's not easy to purchase one, that's why I have created this website.</h3>
+      <p>
+      Let us do the research, we'll provide an easy to understand comparrison table so that you don't have to waste time with any other websites.
+      </p>
       <?php }
       else echo "<h1>No article was found</h1>";
     ?>
