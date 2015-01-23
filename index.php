@@ -6,8 +6,7 @@ $db = new o1db;
 
 $id = ''; // Empty by default
 
-if( isset($_GET['id']) )
-  $id = $_GET['id'];
+if( isset($_GET['id']) ) $id = $t->filterId( $_GET['id'] );
 
 // replace space to -
 $filterKey = $t->filterUrl($id);
