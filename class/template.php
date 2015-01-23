@@ -9,7 +9,6 @@ class template
 
 	}
 
-
 	/*
 		Blog Structure
 	*/
@@ -18,6 +17,11 @@ class template
 		return str_replace(array(' ','/'), array('-',''), $title);
 	}
 
+	function filterId( $id )
+	{	
+		$id = str_replace('/','',$id);
+		return htmlspecialchars($id, ENT_QUOTES, 'UTF-8');
+	}
 	function blogHead( $title )
 	{
 		return '<!DOCTYPE html>
