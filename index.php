@@ -1,19 +1,17 @@
 <?php
-require_once("class/template.php");
-require_once("class/o1db.php");
-$t = new template;
-$db = new o1db;
+require_once("config.php");
 
 $id = ''; // Empty by default
 
-if( isset($_GET['id']) ) $id = $t->filterId( $_GET['id'] );
+if( isset($_GET['id']) )    $id = $t->filterId( $_GET['id'] );
 
 // replace space to -
 $filterKey = $t->filterUrl($id);
 
-$t->description = "Description";
-$t->title = "Pick Tables";
-
+if( $id == 'index.php' || $id == '' )
+{
+    $id = $default['title'];
+}
 echo $t->blogHead( $id );
 echo $t->nav();
 
