@@ -42,6 +42,13 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
 */
 ?>
 <div class="container">
+
+<div class="row">
+<div class="col-lg-12 text-center">
+  <h1>Best Coffee Tables Reviews</h1>
+  <hr class="star-primary">
+</div>
+</div>
 <div class="row">
     <div class="col-lg-8">
     <?php
@@ -49,7 +56,8 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       else if( $filterKey == '' || $filterKey == "/index.php" )
       {
       ?>
-      <h1>Best Coffee Tables Reviews</h1>
+      
+
       <h3>It's not easy to purchase one, that's why I have created this website.</h3>
       <p>This is one of the must-have types of furniture in the living room, the coffee table.</p>
       <p>Invented by the British people in the late Victorian era, they are also known as cocktail tables. Mostly used to hold beverages (hence the name), books, different kind of decorative objects etc. Because of all these attributes they are usually situated near or in front of the sofa. There are different kinds of coffee tables on the market. You can choose them according to the material, size, shape etc. All in favor to suit you well in the room where you plan to put the table. Modern coffee tables not just perform the task they are intended to do, but also can be seen as beautiful addition to the room. The coffee table you choose should match the furniture and wall hangings that exist in terms of features and colors. Because of its position it is the first thing that comes to the eye when you first enter the room. That’s why it should give a good impression. In other words "Make other furniture jealous". </p>
