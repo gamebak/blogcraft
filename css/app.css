@@ -9,4 +9,5 @@ html body{font-family:Lora,'Times New Roman',sans-serif;font-size: 12px;}
 	border-radius:8px;}
 #footer{text-align:center;font-size:11px;margin-top:35px;clear:both;}
 .spacer{margin-top:30px;}
-.navbarmain{background:#2C3E50;color:#5883AC;}
+.navbar-default .navbar-brand{color:#5883AC;}
+.navbarmain{background:#2C3E50;}
