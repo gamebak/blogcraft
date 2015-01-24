@@ -51,7 +51,7 @@ class template
 
 	function nav()
 	{
-		return '<header class="navbar navbar-default navbar-static-top bs-docs-nav" id="top" role="banner" style="background:#2C3E50;font-color:#5883AC;">
+		return '<header class="navbar navbar-default navbar-static-top bs-docs-nav" id="top" role="banner" style="background:#2C3E50;color:#5883AC;">
 		  <div class="container">
 		    <div class="navbar-header">
 		      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
