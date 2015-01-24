@@ -34,6 +34,12 @@ class template
 		  <meta name="description" content="'.$this->description.'">
 		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		  <style type="text/css">.spacer{margin-top:30px;}</style>
+		  <meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="The Best Rated Coffee Tables Reviews Online – PickTables" />
+		<meta property="og:description" content="PickTables.com – the ultimate place to find the best rated coffee tables without wasting time or money. We do all research just for you!" />
+		<meta property="og:url" content="http://picktables.com" />
+		<meta property="og:site_name" content="The Best Rated Coffee Tables Reviews Online – PickTables" />
 		</head>
 		<body>';
 	}

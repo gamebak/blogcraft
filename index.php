@@ -68,6 +68,6 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
 
 <?php 
   // tracking google code
-    $t->footer( $default['footer'] );
+    $t->footer = $default['footer'];
   echo $t->blogFooter();
 ?>
