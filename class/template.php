@@ -32,8 +32,9 @@ class template
 		  <meta name="version" content="1.0">
 		  <meta name="viewport" content="width=device-width, initial-scale=1">
 		  <meta name="description" content="'.$this->description.'">
-		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-		  <style type="text/css">.spacer{margin-top:30px;}</style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/app.css">
+
 		  <meta property="og:locale" content="en_US" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="The Best Rated Coffee Tables Reviews Online – PickTables" />
@@ -51,7 +52,7 @@ class template
 
 	function nav()
 	{
-		return '<header class="navbar navbar-default navbar-static-top bs-docs-nav" id="top" role="banner" style="background:#2C3E50;color:#5883AC;">
+		return '<header class="navbar navbar-default navbar-static-top navbarmain" id="top" role="banner">
 		  <div class="container">
 		    <div class="navbar-header">
 		      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
