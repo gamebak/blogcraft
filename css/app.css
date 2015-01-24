@@ -12,3 +12,5 @@ html body{font-size: 14px;}
 .navbar-default .navbar-brand{color:#fff;}
 .navbarmain{background:#2C3E50;font-size: 2em;}
 .navbar a:focus{outline: 0;}
+.navbar-brand{text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;}
