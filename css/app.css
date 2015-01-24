@@ -1,4 +1,4 @@
-html body{font-family:Lora,'Times New Roman',sans-serif;font-size: 12px;}
+html body{font-size: 14px;}
 #container{width:500px;margin:0 auto;}
 #error{color:red;font-weight:bold;}
 #frm{padding:10px 15px;
@@ -9,5 +9,6 @@ html body{font-family:Lora,'Times New Roman',sans-serif;font-size: 12px;}
 	border-radius:8px;}
 #footer{text-align:center;font-size:11px;margin-top:35px;clear:both;}
 .spacer{margin-top:30px;}
-.navbar-default .navbar-brand{color:#5883AC;}
-.navbarmain{background:#2C3E50;}
+.navbar-default .navbar-brand{color:#fff;}
+.navbarmain{background:#2C3E50;font-size: 2em;}
+.navbar a:focus{outline: 0;}
