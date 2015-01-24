@@ -59,6 +59,8 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       Let us do the research, we'll provide an easy to understand comparrison table so that you don't have to waste time with any other websites.
       </p>
 
+      <img src="img/woodenCoffeeTable1.jpg" alt="Wooden coffee table">
+      <p>This modern wooden coffee table is another example of well designed and unique piece of furniture. It combines a solid oak base with a high pressure laminate top that offers protection and stunning look.</p>
       <?php }
       else echo "<h1>No article was found</h1>";
     ?>
