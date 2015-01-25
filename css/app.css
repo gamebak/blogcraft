@@ -16,7 +16,8 @@ html body{font-size: 14px;}
 .navbar-brand a:focus{color:#18BC9C;}
 .navbar-brand{text-transform: uppercase;}
 
-hr.star-primary {
+hr.star-primary{
+	font-family:'Glyphicons Halflings';
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
