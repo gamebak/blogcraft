@@ -59,6 +59,5 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
-.dropdown-menu{color:#fff;}
-.dropdown-menu a{color:#fff;}
-.dropdown-menu a:hover{color:#fff;}
+.navbar-default .navbar-nav>li>a{color:#fff;}
+.navbar-default .navbar-nav>li>a:hover{color:#18bc9c}
