@@ -10,9 +10,10 @@ html body{font-size: 14px;}
 #footer{text-align:center;font-size:11px;margin-top:35px;clear:both;}
 .spacer{margin-top:30px;}
 .navbar-default .navbar-brand{color:#fff;}
+.navbar-brand:hover{color:#18BC9C;}
 .navbarmain{background:#2C3E50;font-size: 2em;}
 .navbar a:focus{outline: 0;color:#18BC9C;}
-.navbar-brand a:hover{color:#18BC9C;}
+.navbar-brand a:focus{color:#18BC9C;}
 .navbar-brand{text-transform: uppercase;}
 
 hr.star-primary {
