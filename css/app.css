@@ -25,10 +25,9 @@ hr.star-primary{
     border-top: solid 5px;
     text-align: center;
 }
-
-hr.star-primary:before{content:"\e005";}
 hr.star-light:after,
 hr.star-primary:after{
+	content:"\e006";
     display: inline-block;
     position: relative;
     top: -.8em;
