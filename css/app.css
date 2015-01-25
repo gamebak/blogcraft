@@ -25,7 +25,7 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-primary:before{content:"*";}
+hr.star-primary:before{content:"\e005";}
 hr.star-light:after,
 hr.star-primary:after{
     display: inline-block;
