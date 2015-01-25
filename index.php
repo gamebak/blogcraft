@@ -8,7 +8,7 @@ if( isset($_GET['id']) )  $id = $t->filterId( $_GET['id'] );
 // replace space to -
 $filterKey = $t->filterUrl($id);
 
-if( $id == 'index.php' || $id == '' )
+if( $id == 'index.php' || $id == '' || !$db->key_exists('db', $filterKey) )
 {
     $id = $default['title'];
     $t->description = $default['description'];
