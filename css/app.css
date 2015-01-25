@@ -24,9 +24,9 @@ hr.star-primary {
     text-align: center;
 }
 
+hr.start-primary:before{content:"\e006";}
 hr.star-light:after,
-hr.star-primary:after {
-    content: "\e006";
+hr.star-primary:after{
     display: inline-block;
     position: relative;
     top: -.8em;
