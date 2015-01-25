@@ -50,9 +50,13 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
   {
       echo "<h1>Best Coffee Tables Reviews</h1>";
   }
-  else
+  elseif( $db->key_exists('db', $filterKey) )
   {
       echo "<h1>".$filterKey."</h1>";
+  }
+  else
+  {
+    echo "<h1>Page not available</h1>";
   }
   ?>
   <hr class="star-primary">
