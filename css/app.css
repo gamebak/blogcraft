@@ -15,7 +15,14 @@ html body{font-size: 14px;}
 .navbar a:focus{outline: 0;color:#18BC9C;}
 .navbar-brand a:focus{color:#18BC9C;}
 .navbar-brand{text-transform: uppercase;}
-
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #18bc9c;
+}
 hr.star-primary{
     margin: 25px auto 30px;
     padding: 0;
