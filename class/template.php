@@ -66,13 +66,14 @@ class template
 		      	<li class="dropdown">
                 	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tables <span class="caret"></span></a>
                 		<ul class="dropdown-menu" role="menu">
-		                  <li class="dropdown-header">Tables</li>
+		                 
 		                  <li><a href="#">Coffe Tables</a></li>
 		                  <li><a href="#">Bedside Tables</a></li>
 		                  <li><a href="#">Console Tables</a></li>
 		                  <li><a href="#">Dinning Tables</a></li>
 		                  <li><a href="#">Glass Tables</a></li>
 		                  <li class="divider"></li>
+		                  <li class="dropdown-header">Tables</li>
 		                </ul>
               	</li>
 		        <li><a href="'.self::DOMAIN.'contact.php"><button type="button" class="btn btn-info logobtn">Contact Us</button></a></li>
