@@ -59,7 +59,7 @@ class template
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		      </button>
-		     <a class="navbar-brand" href="#page-top">Coffee Tables</a>
+		     <span class="glyphicon glyphicon-home"></span> <a class="navbar-brand" href="#page-top">Coffee Tables</a>
 		    </div>
 		    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 		      <ul class="nav navbar-nav navbar-right">
