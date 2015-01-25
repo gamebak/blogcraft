@@ -46,7 +46,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
 <div class="row">
 <div class="col-lg-12 text-center">
   <h1>Best Coffee Tables Reviews</h1>
-  <hr class="star-primary">
+  <hr class="star-primary"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
 </div>
 </div>
 <div class="row">
