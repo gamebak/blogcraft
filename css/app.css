@@ -26,13 +26,12 @@ hr.star-primary{
 }
 hr.star-light:after,
 hr.star-primary:after{
-	font-family:'Glyphicons Halflings';
 	content:"\e006";
     display: inline-block;
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    font-family:'Glyphicons Halflings';
     font-size: 2em;
 }
 
