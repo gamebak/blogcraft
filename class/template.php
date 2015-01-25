@@ -28,14 +28,14 @@ class template
 		<html>
 		<head>
 		  <title>'.$title.'</title>
-		  <meta name="generator" content="unblocktube.pk">
+		  <meta name="generator" content="picktables.com">
 		  <meta name="version" content="1.0">
 		  <meta name="viewport" content="width=device-width, initial-scale=1">
 		  <meta name="description" content="'.$this->description.'">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/app.css">
-
-		  <meta property="og:locale" content="en_US" />
+		<meta charset="UTF-8">
+		<meta property="og:locale" content="en_US" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="The Best Rated Coffee Tables Reviews Online – PickTables" />
 		<meta property="og:description" content="PickTables.com – the ultimate place to find the best rated coffee tables without wasting time or money. We do all research just for you!" />
