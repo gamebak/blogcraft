@@ -63,6 +63,20 @@ class template
 		    </div>
 		    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 		      <ul class="nav navbar-nav navbar-right">
+		      	<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Coffe Tables</a></li>
+                  <li><a href="#">Bedside Tables</a></li>
+                  <li><a href="#">Console Tables</a></li>
+                  <li><a href="#">Dinning Tables</a></li>
+                  <li><a href="#">Glass Tables</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              	</li>
 		        <li><a href="'.self::DOMAIN.'contact.php"><button type="button" class="btn btn-info logobtn">Contact Us</button></a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
