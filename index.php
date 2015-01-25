@@ -45,7 +45,16 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
 
 <div class="row">
 <div class="col-lg-12 text-center">
-  <h1>Best Coffee Tables Reviews</h1>
+  <?php 
+  if( $filterKey == '' || $filterKey == "/index.php" )
+  {
+      echo "<h1>Best Coffee Tables Reviews</h1>";
+  }
+  else
+  {
+      echo "<h1>".$filterKey."</h1>";
+  }
+  ?>
   <hr class="star-primary">
 </div>
 </div>
@@ -69,6 +78,8 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
 
       <img src="img/woodenCoffeeTable1.jpg" alt="Wooden coffee table">
       <p>This modern wooden coffee table is another example of well designed and unique piece of furniture. It combines a solid oak base with a high pressure laminate top that offers protection and stunning look.</p>
+      <p>Many of the modern wooden tables also require assembly. This can be a great advantage because it offers mobility on the first hand but also can be a problem plus to deal with it if you are not into assembling things on the other.</p>
+
       <?php }
       else echo "<h1>No article was found</h1>";
     ?>
