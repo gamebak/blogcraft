@@ -10,17 +10,15 @@ $filterKey = $t->filterUrl($id);
 
 if( $id == 'index.php' || $id == '' || !$db->key_exists('db', $filterKey) )
 {
-    $id = $default['title'];
+    $t->title = $default['title'];
     $t->description = $default['description'];
 }
-echo $t->blogHead( $id );
+echo $t->blogHead();
 echo $t->nav();
 
 
 
 /*
-Unblock facebook proxy
-
 $arr = array( time() => 'Websites blocked in Pakistan' );
 $db->key('db','recent', serialize($arr) );
 $db->key('db','total', serialize($arr) );
@@ -93,7 +91,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       <img src="img/glasscoffeetable.jpg" alt="Glass coffee table" />
       <p>A modern  glass coffee table is usually built with modern materials and elegant, aluminum or non-wood materials. Initial goal is to use materials that are not made of wood. This table will be easy to clean. If you are not impressed by modern uses of aluminum, you can also use wood and then cover it with the other materials. If you go for a classic look, choose glass coffee table with brass finishing and carefully detailed with sloping foot glass tray. For a more casual look, choose a glass table marble finish which usually falls in the range of three hundred to five hundred dollars price. There is also a glass table sets available to a larger home. These sets usually consist of three large rooms – coffee table and two end tables that can accommodate exhibitions and perform other functions. Most games are framed by high quality wood. After staining with a cappuccino or mahogany, these pieces can instantly add panache to even the empty space. And for the main contemporary look, there is a glass coffee table with glass tops swivel and unique chrome legs, among other projects.</p>
 
-      
+
       <?php }
       else echo "<h1>No article was found</h1>";
     ?>

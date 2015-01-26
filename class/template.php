@@ -22,12 +22,12 @@ class template
 		$id = str_replace('/','',$id);
 		return htmlspecialchars($id, ENT_QUOTES, 'UTF-8');
 	}
-	function blogHead( $title )
+	function blogHead( )
 	{
 		return '<!DOCTYPE html>
 		<html>
 		<head>
-		  <title>'.$title.'</title>
+		  <title>'.$this->title.'</title>
 		  <meta name="generator" content="picktables.com">
 		  <meta name="version" content="1.0">
 		  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,7 +63,7 @@ class template
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook">F</i></a>
+                                <a href="https://www.facebook.com/pages/Pick-Tables/523309684478609" target="_blank" rel="nofollow" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook">F</i></a>
                             </li>
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus">g+</i></a>
