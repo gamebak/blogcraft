@@ -6,7 +6,7 @@ $t = new template;
 $db = new o1db;
 
 $default['title'] 		= "Coffee Tables - The best coffee tables in 2015";
-$default['description'] = " The ultimate place to find the best rated coffee tables for your needs without wasting time or money. We do the trails and research for you!";
+$default['description'] = "The coffee table is the must-have types of furniture in the living room, that's why we want to inspire people when they plan to buy it. We offer top quality reviews for coffee tables, with ratings and researched content.";
 
 $default['footer'] 		="<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
