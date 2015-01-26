@@ -66,13 +66,13 @@ class template
                                 <a href="https://www.facebook.com/pages/Pick-Tables/523309684478609" target="_blank" rel="nofollow" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook">F</i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus">g+</i></a>
+                                <a href="https://plus.google.com/b/104767322980481155442/104767322980481155442" target="_blank" rel="nofollow" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus">g+</i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter">T</i></a>
+                                <!-- <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter">T</i></a> !-->
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin">in</i></a>
+                                <!-- <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin">in</i></a> !-->
                             </li>
                         </ul>
                     </div>
