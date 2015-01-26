@@ -78,8 +78,10 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       Let us do the research, we'll provide an easy to understand comparrison table so that you don't have to waste time with any other websites.
       </p>
 
-      <img src="img/woodenCoffeeTable1.jpg" alt="Wooden coffee table" />
-      <p>This modern wooden coffee table is another example of well designed and unique piece of furniture. It combines a solid oak base with a high pressure laminate top that offers protection and stunning look.</p>
+      <img src="img/woodenCoffeeTable1.jpg" alt="Wooden coffee table" class="pull-left" />
+      <div class="caption" class="pull-right">
+        <p>This modern wooden coffee table is another example of well designed and unique piece of furniture. It combines a solid oak base with a high pressure laminate top that offers protection and stunning look.</p>
+      </div>
       <p>Many of the modern wooden tables also require assembly. This can be a great advantage because it offers mobility on the first hand but also can be a problem plus to deal with it if you are not into assembling things on the other.</p>
 
       <img src="img/OttomanCoffeeTable.jpg" alt="Ottoman coffee table" />
