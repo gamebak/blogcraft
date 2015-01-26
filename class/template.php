@@ -38,7 +38,7 @@ class template
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="The Best Rated Coffee Tables Reviews Online – PickTables" />
-		<meta property="og:description" content="PickTables.com – the ultimate place to find the best rated coffee tables without wasting time or money. We do all research just for you!" />
+		<meta property="og:description" content="'.$this->description.'" />
 		<meta property="og:url" content="http://picktables.com" />
 		<meta property="og:site_name" content="The Best Rated Coffee Tables Reviews Online – PickTables" />
 		</head>
