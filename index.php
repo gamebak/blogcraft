@@ -80,7 +80,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
 
       <div class="thumbnail clearfix">
         <img src="img/woodenCoffeeTable1.jpg" alt="Wooden coffee table" class="pull-left" />
-        <div class="caption pull-right">
+        <div class="caption">
           <p>This modern wooden coffee table is another example of well designed and unique piece of furniture. It combines a solid oak base with a high pressure laminate top that offers protection and stunning look.</p>
           <p>Many of the modern wooden tables also require assembly. This can be a great advantage because it offers mobility on the first hand but also can be a problem plus to deal with it if you are not into assembling things on the other.</p>
         </div>
@@ -88,7 +88,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       
       <div class="thumbnail clearfix">
       <img src="img/OttomanCoffeeTable.jpg" alt="Ottoman coffee table" class="pull-left"/>
-      <div class="caption pull-right">
+      <div class="caption">
         <h3><strong>Ottoman coffee table</strong> is ideal for smaller homes because it offers a variety of functionalities.</h3>
         <p>Ottoman coffee table is another type of wooden coffee table, usually made out of soft planks of wood. The ottoman coffee table is generally used as a stool or bench seat, but other objects can be used as a coffee table. It is usually made out of smooth wood, all into one table that can be used by you into your living room. This is a very good choice for the home that is not that typical or for homes with small children and it can be used with modern designed interiors.</p>
         <p>Using this kind of coffee table serves many purposes. In an emergency, it can also be used as a stool or chair. At some point, everyone needs an extra seat. This modern coffee table is a great alternative to a folding chair. A folding chair is generally not as attractive as the ottoman and may not be as soft as well. Another way is to use as a bench ottoman. If the furniture in the room was not built in footrest, the stool can be used as a bench.</p>
@@ -98,7 +98,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
 
       <div class="thumbnail clearfix">
       <img src="img/glasscoffeetable.jpg" alt="Glass coffee table" class="pull-left" />
-      <div class="caption pull-right">
+      <div class="caption">
         <p>A modern  glass coffee table is usually built with modern materials and elegant, aluminum or non-wood materials. Initial goal is to use materials that are not made of wood. This table will be easy to clean. If you are not impressed by modern uses of aluminum, you can also use wood and then cover it with the other materials. If you go for a classic look, choose glass coffee table with brass finishing and carefully detailed with sloping foot glass tray. For a more casual look, choose a glass table with marble finish which usually falls in the range of three hundred to five hundred dollars price. There is also a glass table sets available to a larger home. These sets usually consist of three large rooms – coffee table and two end tables that can accommodate exhibitions and perform other functions. Most games are framed by high quality wood. After staining with a cappuccino or mahogany, these pieces can instantly add panache to even the empty space. And for the main contemporary look, there is a glass coffee table with glass tops swivel and unique chrome legs, among other projects.</p>
       </div>
       </div>
