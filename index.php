@@ -105,7 +105,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       <p>Let us do the research, we'll provide an easy to understand comparrison table so that you don't have to waste time with any other websites.</p>
       <p><h3>Soon i'll introduce a comparrison table with multiple coffee tables based on user ratings and reviews.</h3></p>
       <?php
-      else if ( $filterKey == 'preview')
+      }else if ( $filterKey == 'preview')
       {
         ?>
 
