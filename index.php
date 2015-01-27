@@ -109,7 +109,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       {
         ?>
       
-        <h3>Nowdays the coffee table is present in every living room all around the globe.</h3>
+        <h3>Nowdays the coffee table is present in almost every living room all around the globe.</h3>
         
         <p><strong>Coffee table history</strong></p>
         <p>The first coffee tables were actually ottoman tables that were brought to Europe from the Ottoman Empire in the late 18th century.
