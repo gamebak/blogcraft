@@ -61,7 +61,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
 </div>
 </div>
 <div class="row">
-    <div class="col-lg-8">
+    <div class="col-lg-10">
     <?php
       if( $db->key_exists('db', $filterKey) ) echo $db->key('db', $filterKey);
       else if( $filterKey == '' || $filterKey == "/index.php" )
