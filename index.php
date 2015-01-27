@@ -136,7 +136,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
   </div>
 </div>
 <div class="row">
-  <p class="share"></p>
+  <p class="text-center share"></p>
 </div>
 </div>
 
