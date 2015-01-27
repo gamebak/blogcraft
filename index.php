@@ -133,8 +133,10 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       }
       else echo "<h1>No article was found</h1>";
     ?>
-    <p class="share"></p>
   </div>
+</div>
+<div class="row">
+  <p class="share"></p>
 </div>
 </div>
 
