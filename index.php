@@ -108,10 +108,26 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       }else if ( $filterKey == 'preview')
       {
         ?>
+      
+        <h3>Nowdays the coffee table is present in every living room all around the globe.</h3>
+        
+        <p><strong>Coffee table history</strong></p>
+        <p>The first coffee tables were actually ottoman tables that were brought to Europe from the Ottoman Empire in the late 18th century.
+        According to other sources, the word "ottomane" to refer to furniture appeared at least as early as 1729 in French.</p>
+        <p>In the Ottoman Empire the ottoman was used as the central piece of family seating and it was piled with plenty of cushions.</p>
 
-        <h3>The coffee table is one of the must-have types of furniture in the living room.</h3>
-        <p>About the coffee table:</p>
-        <p>Invented by the British people in the late Victorian era, they are also known as cocktail tables. Mostly used to hold beverages (hence the name), books, different kind of decorative objects etc. Because of all these attributes they are usually situated near or in front of the sofa. There are different kinds of coffee tables on the market. You can choose them according to the material, size, shape etc. All in favor to suit you well in the room where you plan to put the table. Modern coffee tables not just perform the task they are intended to do, but also can be seen as beautiful addition to the room. The coffee table you choose should match the furniture and wall hangings that exist in terms of features and colors. Because of its position it is the first thing that comes to the eye when you first enter the room. That’s why it should give a good impression. In other words "Make other furniture jealous". </p>
+        <p><strong>Coffee drinking history</strong></p>
+        <p>To learn about the origins of the coffee table you need to know first about how the coffee drinking was spread in the Britain first.
+        The popularity of coffee drinking is said to have spread to the rest of Europe from the Ottoman Empire after the Battle of Vienna in 1683, but the first coffee houses have been opened in the Britain a little more early.</p>
+        
+        <p>The British people in the late Victorian era converted from the concept of the ottoman table into the coffee table which are also known as cocktail tables.</p>
+        
+        <p><strong>First coffe houses in Europe</strong></p>
+        <p>The first coffee house that was opened in Britain was in in 1650, in Oxford by a Jew called Jacob, and in 1652 the first coffee house was opened in London by Pasqua Rosee, a Turkish former servant of a merchant.</p>
+        <p>First establishments also became popular pretty fast, because it was imitated widely and coffee houses were found everywhere in London. </p>
+        <p>Mostly used to hold beverages (hence the name), books, different kind of decorative objects etc. Because of all these attributes they are usually situated near or in front of the sofa. There are different kinds of coffee tables on the market. You can choose them according to the material, size, shape etc. All in favor to suit you well in the room where you plan to put the table. Modern coffee tables not just perform the task they are intended to do, but also can be seen as beautiful addition to the room. The coffee table you choose should match the furniture and wall hangings that exist in terms of features and colors. Because of its position it is the first thing that comes to the eye when you first enter the room. That’s why it should give a good impression. In other words "Make other furniture jealous". </p>
+        
+
         <p>Let us do the research, we'll provide an easy to understand comparrison table so that you don't have to waste time with any other websites.</p>
         
         <?php
