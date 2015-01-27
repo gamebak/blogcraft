@@ -115,7 +115,8 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
         <p>Let us do the research, we'll provide an easy to understand comparrison table so that you don't have to waste time with any other websites.</p>
         
         <?php
-      } else echo "<h1>No article was found</h1>";
+      }
+      else echo "<h1>No article was found</h1>";
     ?>
   </div>
 </div>
