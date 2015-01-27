@@ -110,7 +110,6 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
         ?>
       
         <h3>Nowdays the coffee table is present in almost every living room all around the globe.</h3>
-        <p class="share"></p>
         <p><strong>Coffee table history</strong></p>
         <p>The first coffee tables were actually ottoman tables that were brought to Europe from the Ottoman Empire in the late 18th century.
         According to other sources, the word "ottomane" to refer to furniture appeared at least as early as 1729 in French.</p>
@@ -134,6 +133,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       }
       else echo "<h1>No article was found</h1>";
     ?>
+    <p class="share"></p>
   </div>
 </div>
 </div>
