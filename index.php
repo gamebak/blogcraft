@@ -120,15 +120,14 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
         <p><strong>Coffee drinking history</strong></p>
         <p>To learn about the origins of the coffee table you need to know first about how the coffee drinking was spread in the Britain.
         The popularity of coffee drinking is said to have spread to the rest of Europe from the Ottoman Empire after the Battle of Vienna in 1683, but other sources are indicating that the first coffee houses in the Britain were a little more early, back in 1650.</p>
-        
-        <p>The British people in the late Victorian era converted from the concept of the ottoman table into the coffee table which are also known as cocktail tables.</p>
-        
+
         <p><strong>First coffe houses in Europe</strong></p>
         <p>The first coffee house that was opened in Britain was in in 1650, in Oxford by a Jew called Jacob, and in 1652 the first coffee house was opened in London by Pasqua Rosee, a Turkish former servant of a merchant.</p>
         <p>First establishments also became popular pretty fast, because it was imitated widely and coffee houses were found everywhere in London. </p>
         <p>Mostly used to hold beverages (hence the name), books, different kind of decorative objects etc. Because of all these attributes they are usually situated near or in front of the sofa.</p>
 
-
+        <p>The British people in the late Victorian era converted from the concept of the ottoman table into the coffee table which are also known as cocktail tables.</p>
+        <p>Even if the British had coffee houses, the first wooden tables specifically designed as a coffee table appeared after many more years in 1868 by E.W. Godwin and made in large numbers by William Watt and Collinson and Lock which is listed as a coffee table in "Victorian Furniture" by R. W. Symonds &and; B. B. Whineray and also in "The Country Life book of English Furniture" by Edward T. Joy</p>
 
         <p>Let us do the research, we'll provide an easy to understand comparrison table so that you don't have to waste time with any other websites.</p>
         
