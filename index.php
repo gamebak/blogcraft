@@ -120,7 +120,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
         <div class="thumbnail clearfix">
         <img src="img/teadrinking.jpg" alt="Popular quote from Turkish folk, conversations without tea are like a night sky without the moon." class="imgspacer pull-left" />
         <div class="caption">
-          <blockquote><p>"Caysiz sohbet, aysiz gok yuzu gibidir"</p> <p>Conversations without tea are like a night sky without the moon</p> <p><small>Folk saying</small></p></blockquote>
+          <blockquote><p>"Caysiz sohbet, aysiz gok yuzu gibidir"</p> <p>Conversations without tea are like a night sky without the moon</p> <p><small>Folk saying in the Ottoman Empire</small></p></blockquote>
         </div>
         </div>
 
