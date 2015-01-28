@@ -131,7 +131,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
         The popularity of coffee drinking is said to have spread to the rest of Europe from the Ottoman Empire after the Battle of Vienna in 1683, but other sources are indicating that the first coffee houses in the Britain were a little more early, back in 1650.</p>
 
         <p><strong>First coffe houses in Europe</strong></p>
-        <p>The first coffee house that was opened in Britain was in in 1650, in Oxford by a Jew called Jacob, and in 1652 the first coffee house was opened in London by Pasqua Rosee, a Turkish former servant of a merchant.</p>
+        <p>The first coffee house that was opened in Britain was in Oxford by a Jew called Jacob in 1650, and two years later, in 1652, the first coffee house was opened in London by Pasqua Rosee, a Turkish former servant of a merchant.</p>
         <p>First establishments also became popular pretty fast, because it was imitated widely and coffee houses were found everywhere in London. </p>
         <p>Mostly used to hold beverages (hence the name), books, different kind of decorative objects etc. Because of all these attributes they are usually situated near or in front of the sofa.</p>
 
