@@ -116,8 +116,14 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
         <p>The first coffee tables were actually ottoman tables that were brought to Europe from the Ottoman Empire in the late 18th century.
         According to other sources, the word "ottomane" to refer to furniture appeared at least as early as 1729 in French.</p>
         <p>In the Ottoman Empire the ottoman was used as the central piece of family seating and it was piled with plenty of cushions. Another important aspect is that they used small tables in tea gardens.</p>
-        <blockquote><p>"Caysiz sohbet, aysiz gok yuzu gibidir"</p> <p>Conversations without tea are like a night sky without the moon</p> <p><small>Folk saying</small></p></blockquote>
         
+        <div class="thumbnail clearfix">
+        <img src="img/teadrinking.jpg" alt="Popular quote from Turkish folk, conversations without tea are like a night sky without the moon." class="imgspacer pull-left" />
+        <div class="caption">
+          <blockquote><p>"Caysiz sohbet, aysiz gok yuzu gibidir"</p> <p>Conversations without tea are like a night sky without the moon</p> <p><small>Folk saying</small></p></blockquote>
+        </div>
+        </div>
+
         <p>The low coffee tables may also have origins from countries such as India or Japan, because they had the tradition of eating and drinking at low level and therefore used low tables.</p>
 
         <p><strong>Coffee drinking history</strong></p>
