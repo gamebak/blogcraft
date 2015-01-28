@@ -116,7 +116,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
         <p>In the Ottoman Empire the ottoman was used as the central piece of family seating and it was piled with plenty of cushions.</p>
 
         <p><strong>Coffee drinking history</strong></p>
-        <p>To learn about the origins of the coffee table you need to know first about how the coffee drinking was spread in the Britain first.
+        <p>To learn about the origins of the coffee table you need to know first about how the coffee drinking was spread in the Britain.
         The popularity of coffee drinking is said to have spread to the rest of Europe from the Ottoman Empire after the Battle of Vienna in 1683, but the first coffee houses have been opened in the Britain a little more early.</p>
         
         <p>The British people in the late Victorian era converted from the concept of the ottoman table into the coffee table which are also known as cocktail tables.</p>
