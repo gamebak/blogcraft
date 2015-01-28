@@ -137,7 +137,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
 
         <p>The British people in the late Victorian era converted from the concept of the ottoman table into the coffee table which are also known as cocktail tables.</p>
         <p>Sadly there aren't any known examples of coffee tables made before the mid to late 19th century.</p>
-        <p>Even if the British had coffee houses, the first wooden tables specifically designed as a coffee table appeared after many more years in 1868 by E.W. Godwin and made in large numbers by William Watt and Collinson and Lock which is listed as a coffee table in "Victorian Furniture" by R. W. Symonds &and; B. B. Whineray and also in "The Country Life book of English Furniture" by Edward T. Joy</p>
+        <p>Even if the British had coffee houses, the first wooden tables specifically designed as a coffee table appeared after many more years in 1868 by E.W. Godwin and made in large numbers by William Watt and Collinson and Lock which is listed as a coffee table in "Victorian Furniture" by R. W. Symonds &amp; B. B. Whineray and also in "The Country Life book of English Furniture" by Edward T. Joy</p>
 
         <p>Let us do the research, we'll provide an easy to understand comparrison table so that you don't have to waste time with any other websites.</p>
         
