@@ -4,7 +4,14 @@ class db extends o1db
 {
 	public $recentlimit = 20;
 
-	// Get recent list of articles
+	/**
+	* Get recent list of articles
+	*
+	* @param string        $db database connector
+	* @param string        $article article inside the database
+	*
+	* @return boolean|array
+	*/
 	public function recent($db, $article = false)
 	{
 		// no table
@@ -44,16 +51,30 @@ class db extends o1db
 		
 	}
 
-	public function addArticleTotalList($db, $article)
+	/**
+	* 
+	* @param string        $db database connector
+	* @param string        $articleKey id/key for the indexed article
+	*
+	* @return boolean 
+	*/
+	public function addArticleTotalList($db, $articleKey)
 	{
 		if(!$this->table_exists($db)) return false;
 
 		
 	}
 
+	/*
+	* @param string        $db database connector
+	*
+	* @return array|boolean Array with articles
+	*/
 	public function getTotalList($db)
 	{
+		if(!$this->table_exists($db) || !$this->key_exists($db, 'top')) return false;
 
+		
 	}
 }
 
