@@ -35,7 +35,7 @@ class db extends o1db
 			// just create the new article
 			if( !$this->key_exists($db, 'recent') ) $this->key( $db, 'recent', $article);
 
-			$list = unserialize( $this->key('db','recent' ) );
+			$list = unserialize($this->key($db, 'recent'));
 			// append the article to the recent list
 			while( count($list) > $this->recentlimit ) )
 			{
@@ -50,6 +50,19 @@ class db extends o1db
 		}
 		
 	}
+	/*
+	* @param string        $db database connector
+	*
+	* @return array|boolean Array with articles
+	*/
+	public function getTotalList($db)
+	{
+		if(!$this->table_exists($db) || !$this->key_exists($db, 'top')) return false;
+
+		$list = unserialize($this->key($db, 'top'));
+
+		return $list;
+	}
 
 	/**
 	* 
@@ -61,20 +74,22 @@ class db extends o1db
 	public function addArticleTotalList($db, $articleKey)
 	{
 		if(!$this->table_exists($db)) return false;
-
 		
-	}
+		// create first key
+		if(!$this->key_exists($db, 'top'))
+		{
+			$newKey[] = $articleKey;
+		}
+		else
+		{
+			// append new key
+			$newKey = $this->getTotalList($db);
+			$newKey[] = $arrKeys;
+		}
 
-	/*
-	* @param string        $db database connector
-	*
-	* @return array|boolean Array with articles
-	*/
-	public function getTotalList($db)
-	{
-		if(!$this->table_exists($db) || !$this->key_exists($db, 'top')) return false;
+		$this->key($db, 'top', serialize($newKey));
 
-		
+		return true;
 	}
 }
 
