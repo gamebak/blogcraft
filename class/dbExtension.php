@@ -5,10 +5,10 @@ class db extends o1db
 	public $recentlimit = 20;
 
 	// Get recent list of articles
-	function recent( $db, $article = false )
+	public function recent($db, $article = false)
 	{
 		// no table
-		if( !$this->table_exists($db) ) return false;
+		if(!$this->table_exists($db)) return false;
 
 		// get recent articles
 		if( !$article )
@@ -42,6 +42,18 @@ class db extends o1db
 			return true;
 		}
 		
+	}
+
+	public function addArticleTotalList($db, $article)
+	{
+		if(!$this->table_exists($db)) return false;
+
+		
+	}
+
+	public function getTotalList($db)
+	{
+
 	}
 }
 

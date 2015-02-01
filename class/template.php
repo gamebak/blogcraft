@@ -12,17 +12,17 @@ class template
 	/*
 		Blog Structure
 	*/
-	function filterUrl( $title )
+	public function filterUrl( $title )
 	{
 		return str_replace(array(' ','/'), array('-',''), $title);
 	}
 
-	function filterId( $id )
+	public function filterId( $id )
 	{	
 		$id = str_replace('/','',$id);
 		return htmlspecialchars($id, ENT_QUOTES, 'UTF-8');
 	}
-	function blogHead( )
+	public function blogHead( )
 	{
 		return '<!DOCTYPE html>
 		<html>
@@ -45,11 +45,11 @@ class template
 		<body>';
 	}
 
-	function blogFooter()
+	public function blogFooter()
 	{
 		return $this->footer.'<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script><script src="js/app.js"></script><script>(function(i,s,o,g,r,a,m){i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,\'script\',\'//www.google-analytics.com/analytics.js\',\'ga\');ga(\'create\',\'UA-55441503-1\',\'auto\');ga(\'send\',\'pageview\');</script>'.$this->footer().'</body></html>';
 	}
-	function footer()
+	public function footer()
 	{
 		return '<footer class="text-center">
         <div class="footer-above">
@@ -94,7 +94,7 @@ class template
         </div>
     </footer>';
 	}
-	function nav()
+	public function nav()
 	{
 		return '<header class="navbar navbar-default navbar-static-top navbarmain" id="top" role="banner">
 		  <div class="container">
@@ -131,4 +131,3 @@ class template
 	}
 
 }
-?>
