@@ -187,6 +187,8 @@ class db extends o1db
 	*/
 	public function addArticle($articleNameKey, $articleText)
 	{
+		$articleText = $this->encodeArticleKey($articleText);
+
 		// save article
 		$this->key( $this->db, $articleNameKey, $articleText);
 		
