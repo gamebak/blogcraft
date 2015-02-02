@@ -1,6 +1,6 @@
 <?php
 
-class db extends o1db
+class dbExtension extends o1db
 {
 	public 
 	/**

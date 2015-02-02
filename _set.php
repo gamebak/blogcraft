@@ -6,12 +6,12 @@ require_once("class/dbExtension.php");
 
 
 $t = new template;
-$db = new o1db;
+$dbExtension = new dbExtension;
 
 // Extension database connector
-$db->db = 'db';
+$dbExtension->db = 'db';
 
-$db->addArticle('Coffee table history', '<h3>Nowadays the coffee table is present in almost every living room all around the globe.</h3>
+$dbExtension->addArticle('Coffee table history', '<h3>Nowadays the coffee table is present in almost every living room all around the globe.</h3>
         <p><strong>Coffee table history</strong></p>
         <p>The first coffee tables were actually ottoman tables that were brought to Europe from the Ottoman Empire in the late 18th century.
         According to other sources, the word "ottomane" referring to furniture appeared as early as 1729 in French.</p>
