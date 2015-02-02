@@ -248,7 +248,7 @@ class o1db
 		if( empty($str) || !isset($str))
 			return false;
 
-		if( preg_match('/^[a-z0-9](?:[a-z0-9_ -]*[a-z0-9])?$/i', $str))
+		if( preg_match('/^[a-z0-9](?:[a-z0-9_ -\.]*[a-z0-9])?$/i', $str))
 			return true;
 		
 		return false;
