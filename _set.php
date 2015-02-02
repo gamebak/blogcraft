@@ -10,9 +10,9 @@ $dbExtension = new dbExtension;
 
 // Extension database connector
 $dbExtension->db = 'db';
-$dbExtension->->create_table($dbExtension->db);
+$dbExtension->->create_table('db');
 
-$dbExtension->addArticle('Coffee table history', '<h3>Nowadays the coffee table is present in almost every living room all around the globe.</h3>
+$output = $dbExtension->addArticle('Coffee table history', '<h3>Nowadays the coffee table is present in almost every living room all around the globe.</h3>
         <p><strong>Coffee table history</strong></p>
         <p>The first coffee tables were actually ottoman tables that were brought to Europe from the Ottoman Empire in the late 18th century.
         According to other sources, the word "ottomane" referring to furniture appeared as early as 1729 in French.</p>
@@ -35,4 +35,5 @@ $dbExtension->addArticle('Coffee table history', '<h3>Nowadays the coffee table 
         <p>Sadly there aren\'t any known examples of coffee tables made before the mid to late 19th century.</p>
         <p>Even if the British had coffee houses, the first wooden table specifically designed as a coffee table appeared after many more years in 1868 by E.W. Godwin and made in large numbers by William Watt and Collinson and Lock which is listed as a coffee table in "Victorian Furniture" by R. W. Symonds &amp; B. B. Whineray and also in "The Country Life book of English Furniture" by Edward T. Joy</p>
         <p>Let us do the research, we\'ll provide an easy to understand comparrison table so that you don\'t have to waste time with any other websites.</p>');
-?>
+
+var_dump($output);

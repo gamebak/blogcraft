@@ -213,6 +213,8 @@ class dbExtension extends o1db
 
 		// add the article to the total
 		$this->addArticleTotalList($articleNameKey);
+
+		return true;
 	}
 }
 
