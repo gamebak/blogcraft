@@ -139,14 +139,16 @@ class template
 	*/
 	public function recentListRender($arr)
 	{
-		$tmp = '<ul class="list-group">';
+		$tmp = '<div class="panel panel-default">
+			<div class="panel-heading">Recent articles</div>
+		<ul class="list-group">';
 
 		foreach($arr as $ar)
 		{
 			$tmp.= '<li class="list-group-item"><a href="'.self::DOMAIN.$this->filterUrl($ar).'" title="'.$ar.'">'.$ar.'</a></li>';
 		}
 
-		$tmp .= '</ul>';
+		$tmp .= '</ul></div>';
 
 		return $tmp;
 	}
