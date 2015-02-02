@@ -190,7 +190,7 @@ class dbExtension extends o1db
 		if(!$this->table_exists($this->db)) return false;
 
 		$articleNameKey = $this->encodeArticleKey($articleNameKey);
-		echo "Article TExt is".$articleNameKey;
+
 		// save article
 		$this->key( $this->db, $articleNameKey, $articleText);
 		
