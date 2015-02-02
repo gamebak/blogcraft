@@ -109,7 +109,14 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       <?php
       }else if ( $filterKey == 'preview')
       {
-        if($db->key_exists('db', $filterKey.'.publish')) echo "Published on ".$db->key_exists('db', $filterKey.'.publish');
+        /**
+        * Grab recent list
+        */
+        $recent = $dbExtension->getRecentParsedList();
+        /**
+        * Recent list render in html
+        */
+        echo $t->recentListRender($recent);
         ?>
         <h3>Nowadays the coffee table is present in almost every living room all around the globe.</h3>
         <p><strong>Coffee table history</strong></p>

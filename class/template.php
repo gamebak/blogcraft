@@ -130,4 +130,25 @@ class template
 		</header>';
 	}
 
+	/**
+	* Generate template for recent list
+	*
+	* @param array 		$arr array with most recent
+	*
+	* @return string
+	*/
+	public function recentListRender($arr)
+	{
+		$tmp = '<ul class="list-group">';
+
+		foreach($arr as $ar)
+		{
+			$tmp.= '<li class="list-group-item">'.$ar.'</li>';
+		}
+
+		$tmp .= '</ul>';
+
+		return $tmp;
+	}
+
 }
