@@ -93,7 +93,7 @@ class db extends o1db
 
 			$list = unserialize($this->key($this->db, 'recent'));
 			// append the article to the recent list
-			while(count($list) > $this->recentlimit ))
+			while(count($list) > $this->recentlimit)
 			{
 				unset($list[0]);
 				$list = array_values($list);
