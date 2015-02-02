@@ -1,7 +1,7 @@
 <?php 
 require_once("class/template.php");
 require_once("class/o1db.php");
-require_once("class/dbExtension");
+require_once("class/dbExtension.php");
 
 $t = new template;
 $db = new o1db;
