@@ -10,7 +10,7 @@ $dbExtension = new dbExtension;
 
 // Extension database connector
 $dbExtension->db = 'db';
-$dbExtension->->create_table('db');
+$dbExtension->create_table('db');
 
 $output = $dbExtension->addArticle('Coffee table history', '<h3>Nowadays the coffee table is present in almost every living room all around the globe.</h3>
         <p><strong>Coffee table history</strong></p>
