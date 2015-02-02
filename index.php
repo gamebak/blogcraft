@@ -110,28 +110,22 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       }else if ( $filterKey == 'preview')
       {?>
         <h3>Nowadays the coffee table is present in almost every living room all around the globe.</h3>
-        <p><strong>Coffee table history</strong></p>
-        <p>The first coffee tables were actually ottoman tables that were brought to Europe from the Ottoman Empire in the late 18th century.
-        According to other sources, the word "ottomane" referring to furniture appeared as early as 1729 in French.</p>
-        <p>In the Ottoman Empire the ottoman was used as the central piece of family seating and it was piled with plenty of cushions. Another important aspect is that they used small tables in tea gardens.</p>
+        <p><strong>Glass Coffee Tables</strong></p>
+        <p>The best method to analyze the personality is by judging his taste and the best way to judge someone’s taste is through his home because home is the only place which reflects the owner’s personality. That is the reason everyone is curious about the furnishing and interior of his home. Usually it is seen that the people mostly decorate their living room, drawing room and the guest room.</p>
+        <p>So it just the furnishings and furniture that change the whole ambiance of your room. For this purpose, people buy a lot of things to create the stylish ambiance glass coffee table is one of such elegant things which you can use to style your home.</p>
+
+        <p>It would be quite embarrassing to say that where such tables are being used because I don’t think so that there would be the any house where you would not find the coffee table. Actually with the modernity of life, everyone has got the sense of style and everyone wants that his home would be perfect so he tries his best to décor it in the world’s luxurious styling things such as a perfect coffee table…</p>
+        <p>After purchasing the glass tables, another question knock at the mind that what is the perfect place that you can style with your glass table. That is a very important question which I usually discussed with the interior designers because a usual housewife doesn’t have enough knowledge about the styling and décor of the home. Now let me share some brilliant ideas with you that how you can enhance the whole ambiance of your home and can impress your guests who are coming to see you next week.</p>
+        <p><strong>Perfect place of glass coffee tables:</strong></p>
+        <p>The perfect place of the coffee tables is the drawing room where you serve your guests. Moreover you can use them in your living room for the regular use where you can have your meal there with your children.</p>
+        <p><strong>Why people reluctant to use it with kids?</strong></p>
+        <p>Some people are reluctant to use the top glass coffee tables with their children. To all of such people, I have a piece of advice who doesn’t find it inconvenient to use such tables with your kids because the material of the glass used in the manufacturing of such tables is very strong. Similarly some parents don’t use it with the kids because of the cleaning issues. Now just kick out all of such thoughts because such glass tables are very easy to clean you can easily clean it with the wet cloth within seconds. So all such parents who are suffering from such problems and don’t share the most valued glass coffee tables with their children, now after reading this blog, you would  become able to enjoy each and every happiest moment in your living room with your children around the glass coffee table.</p>
+        
+
         <div class="thumbnail clearfix">
         <img src="img/teadrinking.jpg" alt="Popular quote from Turkish folk, conversations without tea are like a night sky without the moon." class="imgspacer pull-left" />
-        <div class="caption">
-          <blockquote><p>"Caysiz sohbet, aysiz gok yuzu gibidir"</p> <p>Conversations without tea are like a night sky without the moon</p> <p><small>Folk saying in the Ottoman Empire</small></p></blockquote>
+        <div class="caption"><p></p></div>
         </div>
-        </div>
-        <p>The low coffee tables may also have origins from countries such as India or Japan, because they had the tradition of eating and drinking at low level and therefore used low tables.</p>
-        <p><strong>Coffee drinking history</strong></p>
-        <p>To learn about the origins of the coffee table you need to first know about how coffee drinking was spread in Britain.
-        The popularity of coffee drinking is said to have spread to the rest of Europe from the Ottoman Empire after the Battle of Vienna in 1683, but other sources are indicating that the first coffee houses in Britain appeared a little more early, back in 1650.</p>
-        <p><strong>First coffe houses in Europe</strong></p>
-        <p>The first coffee house that was opened in Britain was in Oxford by a Jew called Jacob in 1650, and two years later, in 1652, the first coffee house was opened in London by Pasqua Rosee, a Turkish former servant of a merchant.</p>
-        <p>First establishments also became popular pretty fast, because the trend of coffee houses was imitated widely and they were found everywhere in London. </p>
-        <p>Mostly used to hold beverages (hence the name), books, different kind of decorative objects etc. Because of all these attributes they are usually situated near or in front of the sofa.</p>
-        <p>The British people in the late Victorian era converted the concept of ottoman tables into coffee tables which are also known as cocktail tables.</p>
-        <p>Sadly there aren't any known examples of coffee tables made before the mid to late 19th century.</p>
-        <p>Even if the British had coffee houses, the first wooden table specifically designed as a coffee table appeared after many more years in 1868 by E.W. Godwin and made in large numbers by William Watt and Collinson and Lock which is listed as a coffee table in "Victorian Furniture" by R. W. Symonds &amp; B. B. Whineray and also in "The Country Life book of English Furniture" by Edward T. Joy</p>
-        <p>Let us do the research, we'll provide an easy to understand comparrison table so that you don't have to waste time with any other websites.</p>
         
         <?php
       }
