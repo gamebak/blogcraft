@@ -197,7 +197,7 @@ class dbExtension extends o1db
 
 		for($i=0; $i<count($arrList); $i++)
 		{
-			if(emtpy($arrList[$i]) || $arrList[$i] == null)
+			if(empty($arrList[$i]) || $arrList[$i] == null)
 				unset($arrList[$i]);
 		}
 
