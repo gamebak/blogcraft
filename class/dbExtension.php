@@ -18,7 +18,7 @@ class dbExtension extends o1db
 		* establish database connector if available
 		*/
 
-		if(is_string($db) && !$this->table_exists($this->db)) $this->create_table($this->db);
+		if(is_string($this->db) && !$this->table_exists($this->db)) $this->create_table($this->db);
 	}
 	/**
 	* Convert from key to normal text
