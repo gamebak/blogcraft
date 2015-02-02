@@ -4,7 +4,8 @@ require_once("class/sitemap.php");
 
 $sitemap = new Sitemap;
 
-$dbExtension->fixArray('top');
+$dbExtension->fixTableArray('top');
+$dbExtension->removeTableArrayValue('top','Coffee table history');
 
 $totalLinkList = $dbExtension->getTotalList();
 

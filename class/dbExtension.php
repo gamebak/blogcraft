@@ -191,12 +191,41 @@ class dbExtension extends o1db
 	*
 	* @return void 
 	*/
-	public function fixArray($table)
+	public function fixTableArray($table)
 	{
 		$arrList = unserialize($this->key($this->db, $table));
 
+		for($i=0; $i<count($arrList); $i++)
+		{
+			if(emtpy($arrList[$i]) || $arrList[$i] == null)
+				unset($arrList[$i]);
+		}
+
+		// Restructure the array, removing null
+		$arrList = array_values($arrList);
+
 		// unique values only
 		$arrList = array_unique($arrList);
+
+		$this->key($this->db, $table, serialize($arrList));
+	}
+
+	/**
+	* Remove duplicated entries in array
+	*
+	* @param string        $table table which will be converted to unique values
+	* @param string        $value value inside the array that we will remove
+	*
+	* @return void 
+	*/
+	public function removeTableArrayValue($table, $value)
+	{
+		$arrList = unserialize($this->key($this->db, $table));
+
+		for($i=0; $i<count($arrList); $i++)
+		{
+			if($arrList[$i] === $value) unset($arrList[$i]);
+		}
 
 		$this->key($this->db, $table, serialize($arrList));
 	}
