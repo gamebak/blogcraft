@@ -6,6 +6,7 @@ require_once("class/dbExtension.php");
 $t = new template;
 $db = new o1db;
 $dbExtension = new dbExtension;
+$dbExtension->db = 'db';
 
 $default['title'] 		= "Coffee Tables - The best coffee tables in 2015";
 $default['description'] = "The coffee table is the must-have types of furniture in the living room, that's why we want to inspire people when they plan to buy it. We offer top quality reviews for coffee tables, with ratings and researched content.";

@@ -112,9 +112,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
         /**
         * Grab recent list
         */
-        $dbExtension->db = 'db';
         $recent = $dbExtension->getRecentParsedList();
-        var_dump($recent);
         /**
         * Recent list render in html
         */

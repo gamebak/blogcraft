@@ -143,7 +143,7 @@ class template
 
 		foreach($arr as $ar)
 		{
-			$tmp.= '<li class="list-group-item">'.$ar.'</li>';
+			$tmp.= '<li class="list-group-item"><a href="http://'.self::DOMAIN.$this->filterUrl($ar).'" title="'.$ar.'">'.$ar.'</a></li>';
 		}
 
 		$tmp .= '</ul>';
