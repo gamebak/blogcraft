@@ -1,13 +1,13 @@
 <?php
-require_once("class/template.php");
-require_once("class/sitemap.php");
+require_once("config.php");
 
 $sitemap = new Sitemap;
 
-$sitemap->list[] = array('name' => 'Websites blocked in Pakistan');
-$sitemap->list[] = array('name' => 'Bypass proxy');
-$sitemap->list[] = array('name' => 'Terms of use');
-$sitemap->list[] = array('name' => 'What-is-SSL-encryption');
+$totalLinkList = $dbExtension->getTotalList();
+foreach($totalLinkList as $link)
+{
+	$sitemap->list[] = array('name' => $link);
+}
 
 echo $sitemap->generateMap();
 ?>
