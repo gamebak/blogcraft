@@ -243,7 +243,7 @@ class o1db
 
 	// string validation
 	// returns @bool
-	private function valid_string( $str )
+	public function valid_string( $str )
 	{
 		if( empty($str) || !isset($str))
 			return false;
