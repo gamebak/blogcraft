@@ -12,8 +12,7 @@ $dbExtension = new dbExtension;
 $dbExtension->db = 'db';
 $dbExtension->create_table('db');
 
-$test = $dbExtension->valid_string('123.db123');
-var_dump($test);
+$dbExtension->remove_key( 'db', 'recent' );
 
 $output = $dbExtension->addArticle('Coffee table history', '<h3>Nowadays the coffee table is present in almost every living room all around the globe.</h3>
         <p><strong>Coffee table history</strong></p>
