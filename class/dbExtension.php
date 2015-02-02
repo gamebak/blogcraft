@@ -52,11 +52,14 @@ class dbExtension extends o1db
 		{
 			$newKey = unserialize($this->key($this->db, 'recent'));
 
-			if(count($newKey) > $this->recentLimit)
+			if(!in_array($articleKey, $newKey))
 			{
 				$newKey[] = $articleKey;
-				unset($newKey[0]);
-				$newKey = array_values($newKey);
+				if(count($newKey) > $this->recentLimit)
+				{
+					unset($newKey[0]);
+					$newKey = array_values($newKey);
+				}
 			}
 		}
 
@@ -166,20 +169,36 @@ class dbExtension extends o1db
 		if(!$this->table_exists($this->db)) return false;
 		
 		// create first key
-		if(!$this->key_exists($this->db, 'top'))
-		{
-			$newKey[] = $articleKey;
-		}
+		if(!$this->key_exists($this->db, 'top')) $newKey[] = $articleKey;
+		
+		// append new key
 		else
 		{
-			// append new key
 			$newKey = $this->getTotalList();
-			$newKey[] = $articleKey;
+
+			if(!in_array($articleKey, $newKey)) $newKey[] = $articleKey;
 		}
 
 		$this->key($this->db, 'top', serialize($newKey));
 
 		return true;
+	}
+
+	/**
+	* Remove duplicated entries in array
+	*
+	* @param string        $table table which will be converted to unique values
+	*
+	* @return void 
+	*/
+	public function fixArray($table)
+	{
+		$arrList = unserialize($this->key($this->db, $table));
+
+		// unique values only
+		$arrList = array_unique($arrList);
+
+		$this->key($this->db, $table, serialize($arrList));
 	}
 
 	/**
