@@ -40,6 +40,8 @@ class dbExtension extends o1db
 	*/
 	public function recentAdd($articleKey)
 	{
+		$newKey = array();
+
 		// create first recent article
 		if(!$this->key_exists($this->db, 'recent'))
 		{
@@ -49,6 +51,7 @@ class dbExtension extends o1db
 		else
 		{
 			$newKey = unserialize($this->key($this->db, 'recent'));
+
 			if(count($newKey) > $this->recentLimit)
 			{
 				$newKey[] = $articleKey;
