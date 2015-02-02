@@ -60,7 +60,7 @@ class dbExtension extends o1db
 			}
 		}
 
-		$this->key($this->db, 'recent', $newKey);
+		$this->key($this->db, 'recent', serialize($newKey));
 
 		return true;
 	}
