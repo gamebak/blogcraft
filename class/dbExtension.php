@@ -10,17 +10,6 @@ class dbExtension extends o1db
 	$recentLimit = 20;
 
 	/**
-	* Initialize database connection if not set
-	*/
-	public function __construct()
-	{
-		/*
-		* establish database connector if available
-		*/
-
-		if(is_string($this->db) && !$this->table_exists($this->db)) $this->create_table($this->db);
-	}
-	/**
 	* Convert from key to normal text
 	*
 	* @param string        $articleKey article key name
