@@ -171,7 +171,7 @@ class dbExtension extends o1db
 		{
 			// append new key
 			$newKey = $this->getTotalList();
-			$newKey[] = $arrKeys;
+			$newKey[] = $articleKey;
 		}
 
 		$this->key($this->db, 'top', serialize($newKey));
@@ -189,8 +189,8 @@ class dbExtension extends o1db
 	{
 		if(!$this->table_exists($this->db)) return false;
 
-		$articleText = $this->encodeArticleKey($articleText);
-		echo "Article TExt is".$articleText;
+		$articleNameKey = $this->encodeArticleKey($articleNameKey);
+		echo "Article TExt is".$articleNameKey;
 		// save article
 		$this->key( $this->db, $articleNameKey, $articleText);
 		
