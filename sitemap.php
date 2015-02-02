@@ -7,6 +7,9 @@ $sitemap = new Sitemap;
 $dbExtension->fixArray('top');
 
 $totalLinkList = $dbExtension->getTotalList();
+
+var_dump($totalLinkList);
+
 foreach($totalLinkList as $link)
 {
 	$sitemap->list[] = array('name' => $link);
