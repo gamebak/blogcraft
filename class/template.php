@@ -148,7 +148,9 @@ class template
 			$tmp.= '<li class="list-group-item"><a href="'.self::DOMAIN.$this->filterUrl($ar).'" title="'.$ar.'">'.$ar.'</a></li>';
 		}
 
-		$tmp .= '</ul></div>';
+		$tmp .= '</ul>
+
+		<p class="text-center share"></p></div>';
 
 		return $tmp;
 	}
