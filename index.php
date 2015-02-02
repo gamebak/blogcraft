@@ -108,16 +108,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       <p><h3>Soon i'll introduce a comparrison table with multiple coffee tables based on user ratings and reviews.</h3></p>
       <?php
       }else if ( $filterKey == 'preview')
-      {
-        /**
-        * Grab recent list
-        */
-        $recent = $dbExtension->getRecentParsedList();
-        /**
-        * Recent list render in html
-        */
-        echo $t->recentListRender($recent);
-        ?>
+      {?>
         <h3>Nowadays the coffee table is present in almost every living room all around the globe.</h3>
         <p><strong>Coffee table history</strong></p>
         <p>The first coffee tables were actually ottoman tables that were brought to Europe from the Ottoman Empire in the late 18th century.
@@ -146,6 +137,17 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       }
       else echo "<h1>No article was found</h1>";
     ?>
+  </div>
+  <div class="col-lg-2">
+  <?php /**
+        * Grab recent list
+        */
+        $recent = $dbExtension->getRecentParsedList();
+        /**
+        * Recent list render in html
+        */
+        echo $t->recentListRender($recent);
+  ?>
   </div>
 </div>
 <div class="row">
