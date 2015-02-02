@@ -13,7 +13,7 @@ class Sitemap extends template
 	*/
 	public function generateMap()
 	{
-		$str = '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+		$str = '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>http://picktables.com/</loc><priority>1.0</priority></url>';
 		foreach($this->list as $url) $str.= '<url><loc>http://picktables.com/'.$this->filterUrl( $url['name'] ).'</loc></url>';
 
 		$str.='</urlset>';
