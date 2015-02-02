@@ -50,7 +50,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
   }
   elseif( $db->key_exists('db', $filterKey) )
   {
-      echo "<h1>".$filterKey."</h1>";
+      echo "<h1>".$dbExtension->decodeArticleKey($filterKey)."</h1>";
   }
   else
   {
