@@ -109,9 +109,8 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       <?php
       }else if ( $filterKey == 'preview')
       {?>
-        <h3>Nowadays the coffee table is present in almost every living room all around the globe.</h3>
         <p><strong>Glass Coffee Tables</strong></p>
-        <p>The best method to analyze the personality is by judging his taste and the best way to judge someone’s taste is through his home because home is the only place which reflects the owner’s personality. That is the reason everyone is curious about the furnishing and interior of his home. Usually it is seen that the people mostly decorate their living room, drawing room and the guest room.</p>
+        <p>The best method to analyze the personality of a person is by judging his taste, and the best way to judge someone’s taste is through his home because that is the only place which reflects the owner’s personality. That is the reason everyone is curious about the furnishing and interior of his home. Usually it is seen that the people mostly decorate their living room, drawing room and the guest room.</p>
         <p>So it just the furnishings and furniture that change the whole ambiance of your room. For this purpose, people buy a lot of things to create the stylish ambiance glass coffee table is one of such elegant things which you can use to style your home.</p>
 
         <p>It would be quite embarrassing to say that where such tables are being used because I don’t think so that there would be the any house where you would not find the coffee table. Actually with the modernity of life, everyone has got the sense of style and everyone wants that his home would be perfect so he tries his best to décor it in the world’s luxurious styling things such as a perfect coffee table…</p>
