@@ -113,6 +113,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
         <div class="thumbnail clearfix">
         <img src="img/glass_coffee_tables.jpg" alt="A modern glass coffee table in the drawing room." class="imgspacer pull-left" />
         <div class="caption">
+        <p>It would be quite embarrassing to say that there are any house where you would not find the coffee table. Actually with the modernity of life, everyone has got the sense of style and everyone wants that his home would be perfect so he tries his best to décor it in the world’s luxurious styling things such as a perfect coffee table…</p>
         <p>The best method to analyze the personality of a person is by judging his taste, and the best way to judge someone’s taste is through his home because that is the only place which reflects the owner’s personality. That is the reason everyone is curious about the furnishing and interior of his home. Usually it is seen that the people mostly decorate their living room, drawing room and the guest room.</p>
         <p>So it just the furnishings and furniture that change the whole ambiance of your room. For this purpose, people buy a lot of things to create the stylish ambiance glass coffee table is one of such elegant things which you can use to style your home.</p>
 
@@ -121,7 +122,6 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
 
         
         <p><strong>Glass Coffee Tables</strong></p>
-        <p>It would be quite embarrassing to say that where such tables are being used because I don’t think so that there would be the any house where you would not find the coffee table. Actually with the modernity of life, everyone has got the sense of style and everyone wants that his home would be perfect so he tries his best to décor it in the world’s luxurious styling things such as a perfect coffee table…</p>
         <p>After purchasing the glass tables, another question knock at the mind that what is the perfect place that you can style with your glass table. That is a very important question which I usually discussed with the interior designers because a usual housewife doesn’t have enough knowledge about the styling and décor of the home. Now let me share some brilliant ideas with you that how you can enhance the whole ambiance of your home and can impress your guests who are coming to see you next week.</p>
         <p><strong>Perfect place of glass coffee tables:</strong></p>
         <p>The perfect place of the coffee tables is the drawing room where you serve your guests. Moreover you can use them in your living room for the regular use where you can have your meal there with your children.</p>
