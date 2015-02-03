@@ -109,7 +109,7 @@ $db->key('db', $filterKey, "<h1>Websites blocked in Pakistan</h1>
       <?php
       }else if ( $filterKey == 'preview')
       {?>
-        <p><h3>A key into someone's soul</h3></p>
+        <p><h3>Discover more about someone by entering their door</h3></p>
         <div class="thumbnail clearfix">
         <img src="img/glass_coffee_tables.jpg" alt="A modern glass coffee table in the drawing room." class="imgspacer pull-left" />
         <div class="caption">
