@@ -155,4 +155,20 @@ class template
 		return $tmp;
 	}
 
+	/**
+	* Generate template for subscribers
+	*
+	* @return string
+	*/
+	public function subscribersRender()
+	{
+		$tmp = '<div class="panel panel-default">
+			<div class="panel-heading">Recent articles</div>
+			<form class="form-inline">
+				<input type="text" class="form-control" placeholder="Your email">
+				 <button type="submit" class="btn btn-default">Subscribe</button>
+			</form>
+			</div>';
+	}
+
 }
