@@ -143,10 +143,11 @@ class template
 			<div class="panel-heading">Recent articles</div>
 		<ul class="list-group">';
 
-		foreach($arr as $ar)
-		{
-			$tmp.= '<li class="list-group-item"><a href="'.self::DOMAIN.$this->filterUrl($ar).'" title="'.$ar.'">'.$ar.'</a></li>';
-		}
+		if(is_array($arr)) {
+			foreach($arr as $ar) {
+				$tmp.= '<li class="list-group-item"><a href="'.self::DOMAIN.$this->filterUrl($ar).'" title="'.$ar.'">'.$ar.'</a></li>';
+			}
+		}	
 
 		$tmp .= '</ul>
 
